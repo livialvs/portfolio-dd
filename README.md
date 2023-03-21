@@ -2,7 +2,7 @@
 
 Autora: Livia Alves de Faria
 
-Curso: Desenvolvimento de Software Multiplataforma
+Curso: Desenvolvimento de Software Multiplataforma - 1°Semestre
 
 Matéria: Design Digital
 
