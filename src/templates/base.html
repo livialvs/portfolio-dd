@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    {% block head %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <title></title>
+
+    {% endblock head %}
+</head>
+
+<body>
+    {% block header %}
+    <header>
+        <nav>
+            <img src="../static/img/logo.png" alt="logo" class="logo">
+            <!-- mrenu responsivo
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div> -->
+            <ul class="nav-list">
+                <li><a href="/">Home</a></li>
+                <li><a href="/sobre">Sobre</a></li>
+                <li><a href="/academico">Acadêmico</a></li>
+                <li><a href="/contatos">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main></main>
+    <script src="../static/mobile-navbar.js"></script>
+
+    {% endblock header %}
+
+    {% block content %}
+
+    {% endblock content %}
+
+    {% block footer %}
+
+    <footer>
+
+        <div class="links-footer">
+            <a href="https://www.linkedin.com/in/livialvs/" target="_blank">
+                <img src="../static/img/linkedin.png" alt="linkedin" class="footer-icones">
+            </a>
+            <a href="https://github.com/livialvs" target="_blank">
+                <img src="../static/img/github.png" alt="github" class="footer-icones">
+            </a>
+            <a href="https://www.instagram.com/livialvss/" target="_blank">
+                <img src="../static/img/instagram.png" alt="instagram" class="footer-icones">
+        </div>
+
+    </footer>
+
+
+
+</body>
+
+</html>
+
+{% endblock footer %}
