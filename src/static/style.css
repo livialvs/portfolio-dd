@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Inter Bold 700';
+    src: url('../static/Inter-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter Light 300';
+    src: url('../static/Inter-Light.ttf') format('truetype');
+}
+
+a{
+    color: #0d0006;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    opacity: 0.7;
+
+}
+
+.logo{
+    width: 160px;
+    padding-top: 5px;
+ }
+
+ nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Inter Bold 700', sans-serif;
+    background: #94a9bc;
+    height: 19vh;
+ }
+
+ main{
+    background: #dfdae0;
+    background-size: cover;
+    padding-left: 7%;
+    padding-right: 7%;
+    
+    padding-bottom: 5%;
+ }
+
+ .nav-list{
+    list-style: none;
+    display: flex;
+ }
+
+ .nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+/* .mobile-menu{
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background: #ffff;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+*/
+
+/* @media (max-width: 999px) {
+    body{
+        overflow-x: hidden;
+    }
+    .nav-list{
+        position: absolute;
+        top: 19vh;
+        right: 0;
+        width: 50vw;
+        height: 62vh;
+        background: #23232e;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;  
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+    .nav-list li{
+        margin-left: 0;
+        opacity: 0;
+    }
+    .mobile-menu{
+        display: block;
+    }
+}
+
+.nav-list.active{
+    transform: translateX(0);
+}
+
+@keyframes navLinkFade{
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* .mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+    opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+}
+*/
+
+
+
+
+/* footer */
+
+footer{
+    width: 100%;
+    height: 19vh;
+    background-color: #94a9bc;
+}
+
+.footer-icones{
+    width: 50px;
+    padding-top: 30px;
+    padding-left: 50px;
+    
+}
+
+
+
+/* home */
+
+.foto-minha{
+    width: 450px;
+}
+
+.principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    
+}
+
+.intro{
+    font-family: 'Inter Light 300', sans-serif;
+    font-size: 1.5em;
+    padding-top: 100px;
+}
+
+
+/* sobre */
+
+.titulo-principal{
+    font-family: 'Inter Bold 700', sans-serif;
+    text-align: center; 
+    
+}
+
+.subtitulo{
+    font-family: 'Inter Bold 700', sans-serif;
+    background-color: #bcc3d5;
+    text-indent: 10px;
+}
+
+.lista{
+    font-family: 'Inter Light 300', sans-serif;
+    list-style: none;
+}
+
+.grid-filmes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.nome-filme{
+    font-family: 'Inter Bold 700', sans-serif;
+    text-align: center;
+}
+
+.poster-filme{
+    width: 200px;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 19%;
+    padding-top: 50px; 
+}
+
+.link-musica{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* ACADÊMICO */
+
+p{
+    font-family: 'Inter Light 300', sans-serif;
+}
+
+.link-academico{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.instituicoes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.nome-instituicao{
+    font-family: 'Inter Bold 700', sans-serif;
+    text-align: center;
+}
+
+
+
+/* CONTATOS */
+
+.icones-contatos{
+    width: 140px;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 105px;
+    padding-top: 50px; 
+    
+}
+
+.contatos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.nome-contatos{
+    font-family: 'Inter Bold 700', sans-serif;
+    text-align: center;
+    
+}
