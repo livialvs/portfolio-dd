@@ -6,6 +6,8 @@ Curso: Desenvolvimento de Software Multiplataforma - 1°Semestre
 
 Matéria: Design Digital
 
+<br><br>
+
 <h2 align="center">💻 Tecnologias e ferramentas utilizadas até o momento:</h2>
 <div align="center">
     <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white&color=4A6C88"/>
@@ -13,10 +15,9 @@ Matéria: Design Digital
     <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&color=4A6C88"/>
     <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white&color=4A6C88"/>
     <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white&color=4A6C88"/>
-    <img src="https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white&color=4A6C88"/>
 </div>
 
-<br>
+<br><br>
 
 <h2>🔨 Execute a Aplicação:</h2>
 
