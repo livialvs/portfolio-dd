@@ -6,22 +6,26 @@ app = Flask("__name__")
 
 @app.route('/')
 def home():
-    return render_template("home.html")
+    title = "Home"
+    return render_template("home.html", title=title)
 
 
 @app.route('/academico')
 def academico():
-    return render_template("academico.html")
+    title = "Acadêmico"
+    return render_template("academico.html", title=title)
 
 
 @app.route('/sobre')
 def sobre():
-    return render_template("sobre.html")
+    title = "Sobre mim"
+    return render_template("sobre.html", title=title)
 
 
 @app.route('/contatos')
 def contatos():
-    return render_template("contatos.html")
+    title = "Contatos"
+    return render_template("contatos.html", title=title)
 
 
 if __name__ == '__main__':
