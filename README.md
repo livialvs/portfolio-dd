@@ -49,7 +49,7 @@ Matéria: Design Digital
 
 <h4> Agora dê o seguinte comando para rodar a aplicação: </h4>
 
-    flask run
+    python app.py
 
 <h4> Por fim, acesse o seguinte link em seu navegador de preferência: </h4>
 
