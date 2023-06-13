@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../static/style.css">
-    <title></title>
+    <link rel="icon" href="../static/img/logo.png">
+    <title>{{ title }}</title>
 
     {% endblock head %}
 </head>
@@ -16,13 +17,17 @@
     {% block header %}
     <header>
         <nav>
-            <img src="../static/img/logo.png" alt="logo" class="logo">
-            <!-- mrenu responsivo
+            <a href="/">
+                <img srcset="../static/img/logo200.png 200w, ../static/img/logo500.png 500w"
+                sizes="(max-width: 600px) 130px, 150px"
+                alt="logo" class="logo">
+            </a>
+            <!-- menu responsivo -->
             <div class="mobile-menu">
                 <div class="line1"></div>
                 <div class="line2"></div>
                 <div class="line3"></div>
-            </div> -->
+            </div> 
             <ul class="nav-list">
                 <li><a href="/">Home</a></li>
                 <li><a href="/sobre">Sobre</a></li>
@@ -32,8 +37,9 @@
         </nav>
     </header>
 
+    <script src="../static/mobile-navbar.js"></script>
+
     <main></main>
-    <!--<script src="../static/mobile-navbar.js"></script>-->
 
     {% endblock header %}
 
@@ -47,13 +53,20 @@
 
         <div class="links-footer">
             <a href="https://www.linkedin.com/in/livialvs/" target="_blank">
-                <img src="../static/img/linkedin.png" alt="linkedin" class="footer-icones">
+                <img srcset="../static/img/linkedin200.png 200w, ../static/img/linkedin500.png 500w"
+                sizes="(max-width: 600px) 40px, 50px"
+                alt="linkedin" class="footer-icones">
             </a>
             <a href="https://github.com/livialvs" target="_blank">
-                <img src="../static/img/github.png" alt="github" class="footer-icones">
+                <img srcset="../static/img/github200.png 200w, ..static/img/github500.png 500w"
+                sizes="(max-width: 600px) 40px, 50px"
+                alt="github" class="footer-icones">
             </a>
             <a href="https://www.instagram.com/livialvss/" target="_blank">
-                <img src="../static/img/instagram.png" alt="instagram" class="footer-icones">
+                <img srcset="../static/img/instagram200.png 200w, ../static/img/instagram500.png 500w"
+                sizes="(max-width: 600px) 40px, 50px"
+                alt="instagram" class="footer-icones">
+            </a>
         </div>
 
     </footer>
