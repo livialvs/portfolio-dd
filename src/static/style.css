@@ -13,6 +13,12 @@
     src: url('../static/Inter-Light.ttf') format('truetype');
 }
 
+@media (max-width: 999px){
+  main{
+    font-size: 80%;
+  }
+}
+
 a{
     color: #0d0006;
     text-decoration: none;
