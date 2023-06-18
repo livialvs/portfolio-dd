@@ -185,23 +185,24 @@ footer{
 
 .caixa-1 {
   margin-bottom: 10px;
-  text-align: center;
+  margin-right: 20px;
 }
+
+
+
 
 @media (min-width: 1000px) {
   .conteudo {
     flex-direction: row;
     justify-content: center;
+    align-items: center; 
   }
 
   .caixa-1 {
-    margin-right: 10px;
-  }
-
-  .intro {
-    padding-left: 0px;
+    margin-right: 20px; 
   }
 }
+
 
 .foto-minha{
     border-radius: 3%;
@@ -210,15 +211,14 @@ footer{
 .intro{
     font-family: 'Inter Light 300', sans-serif;
     font-size: 1.5em;
-    padding-left: 50px;
 }
-
 
 /* sobre */
 
 .titulo-principal{
     font-family: 'Inter Bold 700', sans-serif;
     text-align: center; 
+    font-size: 32px;
     
 }
 
@@ -226,12 +226,14 @@ footer{
     font-family: 'Inter Bold 700', sans-serif;
     background-color: #bcc3d5;
     padding-left: 10px;
+    font-size: 24px;
 }
 
 
 .lista{
     font-family: 'Inter Light 300', sans-serif;
     list-style: none;
+    font-size: 18px;
 }
 
 .filmes-separados {
@@ -271,6 +273,7 @@ footer{
     font-family: 'Inter Bold 700', sans-serif;
     text-align: center;
     margin-top: 10px;
+    font-size: 20px;
 }
 
 
@@ -283,7 +286,10 @@ footer{
 
 p{
     font-family: 'Inter Light 300', sans-serif;
+    font-size: 18px;
 }
+
+
 
 .link-academico{
     text-decoration: underline;
@@ -318,7 +324,7 @@ p{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 5px;
-    
+    font-size: 20px ;
 }
 
 .conteudo-instituicao {
@@ -343,8 +349,10 @@ p{
   
   
   .nome-contatos {
+    padding-top: 10px;
     margin-bottom: 10px; 
     font-family: 'Inter Bold 700', sans-serif;
+    font-size: 24px;
   }
   
   @media (max-width: 600px) {
@@ -352,5 +360,85 @@ p{
       flex-basis: 100%;
     }
   }
+
+
+  /* CARDS */
+
+  .btn-custom {
+    background-color: #94a9bc;
+    border: 2px solid #94a9bc;
+    transition: background-color 0.3s ease;
+
+  }
+
+  .btn-custom:hover {
+    border-color: #476785;
+    background-color: #476785;
+  }
+  
+
+
+  .card-container .card {
+    font-family: 'Inter Bold 700', sans-serif;
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+  
+  .card {
+    max-width: 400px; 
+    flex: 0 0 calc(33.33% - 20px);
+    margin-bottom: 20px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+  .card-title {
+    font-size: 1.2rem; 
+  }
+  
+  .card-text {
+    font-size: 0.9rem; 
+  }
+
+  @media (max-width: 1000px) {
+    .card-container {
+      justify-content: center;
+    }
+  
+    .card {
+      max-width: 100%; 
+      margin-bottom: 20px; 
+      flex-basis: 100%;
+    }
+  
+    .card-title {
+      font-size: 1rem;
+    }
+  
+    .card-text {
+      font-size: 0.8rem; 
+  }
+
+  }
+  
+  
+  
+
+  
+  
+
+
   
 
