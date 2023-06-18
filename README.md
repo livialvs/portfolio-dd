@@ -13,6 +13,7 @@ Matéria: Design Digital
     <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white&color=4A6C88"/>
     <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&color=4A6C88"/>
     <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&color=4A6C88"/>
+    <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=white&color=4A6C88"/>
     <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white&color=4A6C88"/>
     <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white&color=4A6C88"/>
 </div>
@@ -20,6 +21,10 @@ Matéria: Design Digital
 <br><br>
 
 <h2>🔨 Execute a Aplicação:</h2>
+
+<h3> Acesse o meu portfólio <a href="https://portfolio-livialvs.vercel.app/" target="_blank">aqui!</a></h3>
+
+<h3> Ou siga esses passos para executar o projeto:</h3>
 
 <h4> Em primeiro lugar, certifique de ter python 3.7 ou superior instalado em sua máquina, caso não tenha, <a href="https://www.python.org/downloads/" target="_blank"> clique aqui. </a> </h4>
 
@@ -65,11 +70,11 @@ Matéria: Design Digital
 
 📂 **doc**: pasta com os wireframes para desktop e para mobile do projeto em formato PDF.
 
-📂 **src**: pasta com o arquivo _app.py_, e o _requirements.txt_, além de outras duas pastas chamadas _templates_ e _static_.
+📂 **src**: pasta com o arquivo _app.py_, o _requirements.txt_, o _.gitignore_, e o _vercel.json_, além de outras duas pastas chamadas _templates_ e _static_.
 
 -📂 **templates**: pasta com os arquivos de extensão _.html_, sendo eles a base, 'home', 'sobre', 'academico' e 'contatos'.
 
--📂 **static**: pasta com o arquivo de extensão _.css_, dois arquivos referentes as fontes usadas na aplicação, com a extensão _.ttf_, e a pasta _img_.
+-📂 **static**: pasta com o arquivo de extensão _.css_, um arquivo _.js_, dois arquivos referentes as fontes usadas na aplicação, com a extensão _.ttf_, e a pasta _img_.
 
 --📂 **img**: pasta com todas as imagens utilizadas na aplicação.
 
