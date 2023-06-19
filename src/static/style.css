@@ -84,22 +84,22 @@ a:hover{
         bottom: 0;
         right: 0;
         width: 50vw;
-        height: 100vh;
+        height: 500px;
         background-color: #94a9bc;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
         margin-top: 50px;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
     }
     .nav-list li {
         width: 45vw;
-        line-height: 250%;
+        line-height: 150%;
         margin-left: 0px;
         opacity: 0;
         margin-bottom: 2px;
         text-align: center;
+        padding-top: 80px;
     }
     .mobile-menu {
         position: absolute;
