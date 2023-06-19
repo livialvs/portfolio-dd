@@ -24,7 +24,7 @@ Matéria: Design Digital
 
 <h2>🔨 Execute a Aplicação:</h2>
 
-<h3> Acesse o meu portfólio <a href="https://portfolio-livialvs.vercel.app/" target="_blank">aqui!</a></h3>
+<h3> Acesse o meu portfólio <a href="https://livialvs-portfolio.vercel.app/" target="_blank">aqui!</a></h3>
 
 <h3> Ou siga esses passos para executar o projeto:</h3>
 
