@@ -429,12 +429,45 @@ p{
   
     .card-text {
       font-size: 0.8rem; 
-  }
+    }
+
+    .card:nth-child(4) {
+      margin-left: 0 !important;
+    }
+      
+    .card:nth-child(5) {
+      margin-right: 0 !important;
+    }
 
   }
+
+
+  .tecnologias {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.tecnologia {
+    width: 70px;
+    margin-right: 10px;
+}
+
+.botao-repositorio {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+}
   
+.card:nth-child(4) {
+  margin-left: 200px;
+}
   
-  
+.card:nth-child(5) {
+  margin-right: 200px;
+}
 
   
   
